@@ -23,7 +23,7 @@ public class MediaDataBase {
             MediaCategory.FICTION,
             98803,
             true,
-            new Image(new FileInputStream("warriors.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/warriors.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media percy = new Book("Percy Jackson's Greek Gods",
             "Riordan, Rick",
@@ -31,7 +31,7 @@ public class MediaDataBase {
             MediaCategory.FANTASY,
             83648,
             true,
-            new Image(new FileInputStream("percy.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/percy.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media mazeRunner = new Book("The Maze Runner",
             "Dahsner, James",
@@ -39,7 +39,7 @@ public class MediaDataBase {
             MediaCategory.FICTION,
             73794,
             true,
-            new Image(new FileInputStream("mazerunner.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/mazerunner.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media dragon = new Book("The Girl With the Dragon Tattoo",
             "Larsson, Stieg",
@@ -47,7 +47,7 @@ public class MediaDataBase {
             MediaCategory.MYSTERY,
             86007,
             true,
-            new Image(new FileInputStream("dragon.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/dragon.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media dracula = new Book("Dracula",
             "Stoker, Bram",
@@ -55,7 +55,7 @@ public class MediaDataBase {
             MediaCategory.HORROR,
             73297,
             true,
-            new Image(new FileInputStream("dracula.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/dracula.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media charlotee = new Book("Charlotte's Web",
             "White, E.B.",
@@ -63,7 +63,7 @@ public class MediaDataBase {
             MediaCategory.KIDS,
             55800,
             true,
-            new Image(new FileInputStream("charlotte.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/charlotte.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media amulet = new Book("Amulet",
             "Kibuishi, Kazu",
@@ -71,7 +71,7 @@ public class MediaDataBase {
             MediaCategory.COMICS,
             33150,
             true,
-            new Image(new FileInputStream("amulet.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/amulet.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media cooking = new Book("Cooking Solo",
             "Miller, Klancy",
@@ -79,7 +79,7 @@ public class MediaDataBase {
             MediaCategory.COOKING,
             76485,
             true,
-            new Image(new FileInputStream("cooking.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/cooking.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media plant = new Book("The Plant Paradox",
             "Gundry, Steven R.",
@@ -87,7 +87,7 @@ public class MediaDataBase {
             MediaCategory.HEALTH,
             27137,
             true,
-            new Image(new FileInputStream("plant.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/plant.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media sapien = new Book("Sapiens",
             "Harari, Yuval N.",
@@ -95,7 +95,7 @@ public class MediaDataBase {
             MediaCategory.HISTORY,
             38501,
             true,
-            new Image(new FileInputStream("sapiens.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/sapiens.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media kiss = new Book("The Kiss Quotient",
             "Hoang, Helen",
@@ -103,7 +103,7 @@ public class MediaDataBase {
             MediaCategory.ROMANCE,
             90803,
             true,
-            new Image(new FileInputStream("kiss.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/kiss.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media friday = new Book("Friday Night Lights",
             "Bissinger, H. G.",
@@ -111,7 +111,7 @@ public class MediaDataBase {
             MediaCategory.SPORTS,
             10708,
             true,
-            new Image(new FileInputStream("friday.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/friday.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media toyStory = new Movie("Toy Story 4",
             "Josh Cooley",
@@ -119,7 +119,7 @@ public class MediaDataBase {
             MediaCategory.KIDS,
             1,
             true,
-            new Image(new FileInputStream("toy.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/toy.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media aquaman = new Movie("Aquaman",
             "James Wan",
@@ -127,7 +127,7 @@ public class MediaDataBase {
             MediaCategory.FICTION,
             2,
             true,
-            new Image(new FileInputStream("aquaman.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/aquaman.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media chef = new Movie("Chef",
             "Jon Favreau",
@@ -135,7 +135,7 @@ public class MediaDataBase {
             MediaCategory.COOKING,
             3,
             true,
-            new Image(new FileInputStream("chef.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/chef.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media pumpingIron = new Movie("Pumping Iron",
             "George Butler",
@@ -143,7 +143,7 @@ public class MediaDataBase {
             MediaCategory.HEALTH,
             4,
             true,
-            new Image(new FileInputStream("iron.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/iron.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media dunkirk = new Movie("Dunkirk",
             "Christopher Nolan",
@@ -151,7 +151,7 @@ public class MediaDataBase {
             MediaCategory.HISTORY,
             5,
             true,
-            new Image(new FileInputStream("dunkirk.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/dunkirk.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media saw = new Movie("Saw",
             "James Wan",
@@ -159,7 +159,7 @@ public class MediaDataBase {
             MediaCategory.HORROR,
             6,
             true,
-            new Image(new FileInputStream("saw.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/saw.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media martian = new Movie("The Martian",
             "Ridley Scott",
@@ -167,7 +167,7 @@ public class MediaDataBase {
             MediaCategory.FICTION,
             7,
             true,
-            new Image(new FileInputStream("martian.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/martian.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media panther = new Movie("Black Panther",
             "Ryan Coogler",
@@ -175,7 +175,7 @@ public class MediaDataBase {
             MediaCategory.FANTASY,
             8,
             true,
-            new Image(new FileInputStream("blackpanther.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/blackpanther.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media boys = new Movie("To All the Boys I've Loved Before",
             "Susan Johnson",
@@ -183,7 +183,7 @@ public class MediaDataBase {
             MediaCategory.ROMANCE,
             9,
             true,
-            new Image(new FileInputStream("boys.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/boys.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media blind = new Movie("The Blind Side",
             "John Lee Hancock",
@@ -191,7 +191,7 @@ public class MediaDataBase {
             MediaCategory.SPORTS,
             10,
             true,
-            new Image(new FileInputStream("blindside.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/blindside.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media wind = new Movie("Wind River",
             "Taylor Sheridan",
@@ -199,7 +199,7 @@ public class MediaDataBase {
             MediaCategory.MYSTERY,
             11,
             true,
-            new Image(new FileInputStream("windriver.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/windriver.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media endgame = new Movie("Avengers: Endgame",
             "Anthony & Joe Russo",
@@ -207,7 +207,7 @@ public class MediaDataBase {
             MediaCategory.COMICS,
             12,
             true,
-            new Image(new FileInputStream("endgame.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/endgame.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media troll = new Movie("Trollhunters: Tales of Arcadia",
             "Chad Hammes",
@@ -215,7 +215,7 @@ public class MediaDataBase {
             MediaCategory.KIDS,
             13,
             true,
-            new Image(new FileInputStream("trollhunter.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/trollhunter.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     private Media sherlock = new Movie("Sherlock Holmes",
             "Joel Silver",
@@ -223,7 +223,7 @@ public class MediaDataBase {
             MediaCategory.MYSTERY,
             14,
             true,
-            new Image(new FileInputStream("sherlock.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
+            new Image(new FileInputStream("data/sherlock.jpg"), MAX_WIDTH, MAX_HEIGHT, true, true));
 
     public MediaDataBase() throws FileNotFoundException {
         loadMedia();

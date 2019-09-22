@@ -96,7 +96,7 @@ public class ButtonFormats {
 
     public Image getApplicationIcon() {
         try {
-            applicationIcon = new Image(new FileInputStream("applicationicon.jpg"),
+            applicationIcon = new Image(new FileInputStream("data/applicationicon.jpg"),
                     TITLE_WIDTH, TITLE_HEIGHT, true, true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -106,7 +106,7 @@ public class ButtonFormats {
 
     public Image getViewAllTitleIcon() {
         try {
-            viewAllTitleIcon = new Image(new FileInputStream("viewallmenuicon.jpg"),
+            viewAllTitleIcon = new Image(new FileInputStream("data/viewallmenuicon.jpg"),
                     TITLE_WIDTH, TITLE_HEIGHT, true, true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -116,7 +116,7 @@ public class ButtonFormats {
 
     public Image getSearchTitleIcon() {
         try {
-            searchTitleIcon = new Image(new FileInputStream("searchmenuicon.jpg"),
+            searchTitleIcon = new Image(new FileInputStream("data/searchmenuicon.jpg"),
                     TITLE_WIDTH - 10, TITLE_HEIGHT - 10, true, true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -126,7 +126,7 @@ public class ButtonFormats {
 
     public Image getSearchCategoryTitleIcon() {
         try {
-            searchCategoryTitleIcon = new Image(new FileInputStream("searchbycategorymenuicon.jpg"),
+            searchCategoryTitleIcon = new Image(new FileInputStream("data/searchbycategorymenuicon.jpg"),
                     TITLE_WIDTH, TITLE_HEIGHT, true, true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -136,7 +136,7 @@ public class ButtonFormats {
 
     public Image getQuitIcon() {
         try {
-            quitIcon = new Image(new FileInputStream("quiticon.jpg"),
+            quitIcon = new Image(new FileInputStream("data/quiticon.jpg"),
                     SMALLER_IMAGE_WIDTH - 5, SMALLER_IMAGE_HEIGHT - 5, true, true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -146,7 +146,7 @@ public class ButtonFormats {
 
     public Image getMenuIcon() {
         try {
-            menuIcon = new Image(new FileInputStream("menuicon.jpg"),
+            menuIcon = new Image(new FileInputStream("data/menuicon.jpg"),
                     SMALLER_IMAGE_WIDTH - 5,
                     SMALLER_IMAGE_HEIGHT - 5, true, true);
         } catch (FileNotFoundException e) {
@@ -157,7 +157,7 @@ public class ButtonFormats {
 
     public Image getBorrowIcon() {
         try {
-            borrowIcon = new Image(new FileInputStream("borrowicon.jpg"),
+            borrowIcon = new Image(new FileInputStream("data/borrowicon.jpg"),
                     SMALLER_IMAGE_WIDTH, SMALLER_IMAGE_HEIGHT, true, true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -167,7 +167,7 @@ public class ButtonFormats {
 
     public Image getReturnIcon() {
         try {
-            returnIcon = new Image(new FileInputStream("returnicon.jpg"),
+            returnIcon = new Image(new FileInputStream("data/returnicon.jpg"),
                     SMALLER_IMAGE_WIDTH, SMALLER_IMAGE_HEIGHT, true, true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -177,7 +177,7 @@ public class ButtonFormats {
 
     public Image getViewAllIcon() {
         try {
-            viewAllIcon = new Image(new FileInputStream("viewallmenuicon.jpg"),
+            viewAllIcon = new Image(new FileInputStream("data/viewallmenuicon.jpg"),
                     IMAGE_WIDTH, IMAGE_HEIGHT, true, true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -187,7 +187,7 @@ public class ButtonFormats {
 
     public Image getSearchIcon() {
         try {
-            searchIcon = new Image(new FileInputStream("searchmenuicon.jpg"),
+            searchIcon = new Image(new FileInputStream("data/searchmenuicon.jpg"),
                     IMAGE_WIDTH - 8, IMAGE_HEIGHT - 8, true, true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -197,7 +197,7 @@ public class ButtonFormats {
 
     public Image getSearchCategoryIcon() {
         try {
-            searchCategoryIcon = new Image(new FileInputStream("searchbycategorymenuicon.jpg"),
+            searchCategoryIcon = new Image(new FileInputStream("data/searchbycategorymenuicon.jpg"),
                     IMAGE_WIDTH, IMAGE_HEIGHT, true, true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
