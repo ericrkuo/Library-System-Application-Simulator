@@ -1,6 +1,6 @@
 # Library-System-Application-Simulator
 
-This application is a windows OS program that allows users to simulate a library application. 
+This application is a Windows OS program that allows users to simulate a library application. 
 
 ## Motivation
 I've always loved reading books and watching movies, thus I wanted to simulate a user experience for borrowing media items as best as I could. This was also my first project in Java and OOP. 
